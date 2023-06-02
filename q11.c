@@ -21,9 +21,9 @@ void main()
     trans[j][i]=mat3[i][j];
 
     printf("transpose is \n");
-    for(i=0;i<m;i++)
+    for(i=0;i<n;i++)
     {    
-    for(j=0;j<n;j++)
+    for(j=0;j<m;j++)
     {
     printf("%d ",trans[i][j]);
     }
